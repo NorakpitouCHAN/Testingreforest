@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reforest</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <img class="logo" src="LOGO.png" alt="logo">
+            <nav>
+                <ul class="nav_links">
+                    <li><a href="index.HTML">HOME</a></li>
+                    <li><a href="#Effects">EFFECTS</a></li> <!-- Updated href attribute -->
+                    <li><a href="about.HTML">ABOUT US</a></li>
+                    <li><a class="donate-button" href="checkout.HTML">DONATE</a></li>
+                </ul>   
+            </nav>
+           
+        </div>
+    </div>
+    <div class="content">
+       
+        <h1>Together We Can Stop <span>Deforestation</span></h1>
+        <p>Deforestation has greatly altered landscapes around the world. About 2,000 years ago, 80 percent of Western Europe was forested; today the figure is 34 percent. In North America, about half of the forests in the eastern part of the continent were cut down from the 1600s to the 1870s for timber and agriculture. China has lost great expanses of its forests over the past 4,000 years and now just over 20 percent of it is forested. Much of Earth's farmland was once forests.</p>
+        <button class="butt" type="button" onclick="location.href='https://education.nationalgeographic.org/resource/deforestation/'">Learn More</button>
+    </div>
+    <section class="fullEffects" > <!-- Added id "Effects" to the section -->
+        <div class="cov" id="Effects">
+            <h2 class="sectionTitle">EFFECTS</h2>
+            <h3>Deforestation has numerous environmental, social, and economic effects, impacting ecosystems, biodiversity, climate, and human livelihoods. But here are four main effects of deforestation:</h3>
+        <div class="card">
+            <img src="KoalaInDestroyedForest2.jpg" alt="Loss of biodiversity">
+              <h3>Loss of biodiversity</h3>
+            <p>Deforestation leads to the loss of diverse plant and animal species that depend on forest ecosystems for habitat and survival. Clearing forests disrupts ecological balance, reduces species richness, and increases the risk of extinction for many plants, animals, and microorganisms. Loss of biodiversity can have cascading effects on ecosystems, affecting nutrient cycling, pollination, and natural pest control.</p>
+        </div>
+        <div class="card">
+            <img src="2309283_orig.jpg" alt="Loss of biodiversity">
+             <h3>Loss of Ecosystem Services</h3> 
+            <p>Forests provide essential ecosystem services that support human well-being and livelihoods. Deforestation diminishes these services, including clean air and water, climate regulation, nutrient cycling, and medicinal resources. The loss of forest ecosystem services can impact human health, water availability, food production, and economic activities dependent on natural resources.</p>
+        </div>
+        <div class="card">
+            <img src="AdobeStock_54132491.jpeg" alt="Loss of biodiversity">
+            <h3>Climate Change</h3>
+            <p>Forests play a crucial role in regulating the global climate by absorbing carbon dioxide (CO2) from the atmosphere through photosynthesis. Deforestation releases stored carbon back into the atmosphere, contributing to greenhouse gas emissions and exacerbating climate change. Reduced forest cover also affects regional climates, precipitation patterns, and temperature extremes, impacting weather systems and ecosystems.</p>
+
+        </div>
+        <div class="card">
+            <img src="soil.jpg" alt="Loss of biodiversity">
+            <h3>Soil Degradation and Erosion</h3>
+            <p>The removal of trees and vegetation exposes the soil to erosion, degradation, and loss of fertility. Deforested areas are more susceptible to soil erosion by wind and water, leading to sedimentation in rivers, reduced soil productivity, and increased vulnerability to landslides and flooding. Soil erosion affects agricultural productivity, water quality, and ecosystem health, posing challenges for sustainable land use and food security./p>
+        </div>
+    </div>
+</section>
+
+<script>
+    function scrollToEffects() {
+    var effectsSection = document.getElementById("Effects");
+    effectsSection.scrollIntoView({ behavior: "smooth" });
+}
+</script>
+
+        
+        
+
+        
+
+</body>
+</html>
